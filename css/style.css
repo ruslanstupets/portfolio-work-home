@@ -216,86 +216,62 @@
     /* <!-- ABOUT STYLE END -->  */
 
     /* <!-- SKILLS STYLE START -->  */
-    .skillis {
-    background: #fffaf2;
+    /* UPDATED BLOCK SKILLS START  */
+        .t-section {
+        background: #fffaf2;
     }
 
-    .skills_wrapper {
-    max-width: 1109;
-    margin: 0 auto;
+    .t-container {
+        max-width: 1140px;
+        margin: 0 auto;
     }
 
-    .skills_title {
-    padding-top: 93px;
-    padding-bottom: 86px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #333333;
-    }
-
-    .skills_block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 145px;
-    }
-
-    .block_info-text{
+    .t-content,
+    .t-list-item {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-items: center;
     }
 
-
-
-
-    .block_progres-flex {
-        width: 622px;
-        height: 329px;
+    .t-title {
+        padding-top: 93px;
+        padding-bottom: 86px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #333333;
     }
 
-    .block_info-text-title{
-        font-style: normal;
+    .t-image {
+        margin-right: 125px;
+    }
+
+    .t-list {
+        flex: 1;
+    }
+
+    .t-list-item + .t-list-item {
+        margin-top: 28px;
+    }
+    
+    .t-skill {
+        flex: 0 0 25%;
         font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-        color: #333333;
-    }
-    .block_info-tex-progres{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 25px;
-        color: #333333;
+        margin-right: 66px;
     }
 
-    .skills_block-info li{
-        padding-bottom: 17px;
+    .t-progress-bar {
+        flex: 1;
+        height: 24px;
+        background: #f5d6ab;
     }
-
-
-    .bottom {
-    margin-bottom: 62px;
+    
+    .t-progress-bar > span {
+        display: block;
+        height: 100%;
+        background: #c66c49;
     }
-
-
-    .progressbar {
-    width: 446px;
-    height: 24px;
-    background: #f5d6ab;
-    }
-
-    .progressbar > span {
-    display: block;
-    height: 100%;
-    width: 381px;
-    background: #c66c49;
-    }
-
+    /* UPDATED BLOCK SKILLS END  */
     /* <!-- SKILLLS STYLE END -->  */
+
 
     /* <!-- Portfolio STYLE START -->  */
     .Portfolio_wrapper {
